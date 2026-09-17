@@ -28,15 +28,21 @@ their current versions before this specification leaves Working Draft.
 
 - [VC-DATA-MODEL] *Verifiable Credentials Data Model.*
   <https://www.w3.org/TR/vc-data-model/>
-- [DTG-CRED] *DTG Credentials Specification* — the credential families a VTI
-  node issues, holds and presents. *(pending)*
+- [DTG-CRED] *Decentralized Trust Graph Credentials — Core Specification* — the
+  credential families a VTI node issues, holds and presents, and the
+  `taskContext` and `taskDigestMultibase` properties by which a credential
+  cites the exchange that attests it (VTI-CMP-022).
+  <https://github.com/trustoverip/dtgwg-cred-spec>
 - [STATUS] The credential status mechanism relied on by VTI-CRD-010 through
   VTI-CRD-013. *(pending)*
 
 **Operations and transports**
 
-- [TRUST-TASKS] *Trust Tasks Specification* — the canonical operation
-  catalogue whose precedence is required by VTI-OPS-001. *(pending)*
+- [TRUST-TASKS] *Trust Tasks Specification* — the framework every Trust Task
+  specification conforms to, including the outcome evidence of a cited exchange
+  (VTI-CMP-022), with the canonical operation catalogue whose precedence is
+  required by VTI-OPS-001 published in its registry at <https://trusttasks.org/>.
+  <https://github.com/trustoverip/dtgwg-trust-tasks-spec>
 - [DIDCOMM] *DIDComm Messaging v2.*
 - [TSP] *Trust Spanning Protocol.* *(pending)*
 
