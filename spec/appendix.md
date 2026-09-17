@@ -341,6 +341,13 @@ against seven exchanges built from real Trust Task documents and proofs. The
 first and third propositions have no published pressure test yet.
 
 Current disposition: `UNRESOLVED`, with `JOINTLY-OWNED` evidence.
+
+> **Note on this appendix's status:** Family 2 is recorded here as VTI-CMP-120
+> currently requires, with Appendix E in its present informative form. [Issue
+> #32](https://github.com/trustoverip/dtgwg-vti-spec/issues/32) questions
+> whether this appendix should be reclassified or restructured; if it is, this
+> entry moves with it. Not a reason to hold this PR.
+
 Source material is cited in the Informative References.
 
 #### Assessment submissions
