@@ -321,6 +321,7 @@ independent agreement, selective disclosure and privacy-preserving minimisation
 are not failures merely for resembling an adversarial pattern (VTI-CMP-074).
 
 Current disposition: `UNRESOLVED`, with strong `COMPOSITION-OWNED` evidence.
+Source material is cited in the Informative References.
 
 **Family 2 — validity is not completion.** One unsafe inference: that a
 credential citing a Trust Task exchange, having verified, shows the exchange
@@ -335,8 +336,7 @@ completed. Supports VTI-CMP-022, VTI-CMP-023 and VTI-CMP-064.
 Ownership: `JOINTLY-OWNED` — [DTG-CRED] owns credential validity and
 [TRUST-TASKS] owns the outcome-evidence checks; whether a relying party keeps
 the two apart holds only across their composition. Executable pressure test for
-the second proposition: the Keyring reference implementation's
-`tsp-reference/ref-07g-outcome-evidence-pairing`, which runs four pairing rules
+the second proposition: [KEYRING-REF-07G], which runs four pairing rules
 against seven exchanges built from real Trust Task documents and proofs. The
 first and third propositions have no published pressure test yet.
 
@@ -346,9 +346,7 @@ Current disposition: `UNRESOLVED`, with `JOINTLY-OWNED` evidence.
 > currently requires, with Appendix E in its present informative form. [Issue
 > #32](https://github.com/trustoverip/dtgwg-vti-spec/issues/32) questions
 > whether this appendix should be reclassified or restructured; if it is, this
-> entry moves with it. Not a reason to hold this PR.
-
-Source material is cited in the Informative References.
+> entry moves with it.
 
 #### Assessment submissions
 

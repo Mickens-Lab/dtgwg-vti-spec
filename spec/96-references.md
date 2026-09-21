@@ -72,6 +72,11 @@ their current versions before this specification leaves Working Draft.
 - [TOIP-GLOSSARY] *ToIP Main Glossary.* <https://glossary.trustoverip.org>
 - [TOIP-IT-GLOSSARY] *ToIP General IT Glossary.*
   <https://trustoverip.github.io/ctwg-general-glossary>
+- [KEYRING-REF-07G] *Keyring reference implementation,
+  `tsp-reference/ref-07g-outcome-evidence-pairing`* — the executable
+  pressure test for Appendix E, Family 2: four pairing rules run
+  against seven exchanges built from real Trust Task documents and proofs.
+  <https://github.com/berkmancenter/keyring-wallet/tree/c3a7f1d2a547d7a602cf93b87f5672d7a158d4c1/tsp-reference/ref-07g-outcome-evidence-pairing>
 - [COMPOSITION-EVIDENCE] Composition assurance evidence informing the
   Composition Requirements chapter and Appendix E, including the
   false-independence corpus recorded there. *(pending — the working group is to
